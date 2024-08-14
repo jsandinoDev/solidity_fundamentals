@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Storage_m2_ETH.sol": "Storage_m2_ETH"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Storage_m2_ETH.sol": {
+			"keccak256": "0xcabdbf2ec477cc68f25a667684f477ed2ea556c97791c101d4a5060a31530c28",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d769fc9b2b611be10c30be683b78a9061a8bacf49973db3dd1537f6ff93e4b5c",
+				"dweb:/ipfs/QmebHJ5SibG9kygDZgGznf6xXsG3tNBnb9QKEZ9pXzdwsF"
+			]
+		}
+	},
+	"version": 1
+}

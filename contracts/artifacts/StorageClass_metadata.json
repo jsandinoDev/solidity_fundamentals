@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Storage.sol": "StorageClass"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Storage.sol": {
+			"keccak256": "0xfede7b1cce0e1b57ea44f1821a1bb352bf22e7fda8e6713d41a633a077870ded",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a413b7187c0b1e40db1be972674f45673eb77c36bec671cca912f7c69723cb13",
+				"dweb:/ipfs/QmaqaDtyPCXXW4mjns6Sow1MBUQy4oPfpcdhJNenwmxaXp"
+			]
+		}
+	},
+	"version": 1
+}
