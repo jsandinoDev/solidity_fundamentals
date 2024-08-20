@@ -9,29 +9,30 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_counter",
+						"name": "myInfo",
 						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "countChanges",
+				"name": "addInfo",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getStoredInfo",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getOneInfo",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -44,12 +45,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "lastExec",
+				"name": "listAllInfo",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string[]",
 						"name": "",
-						"type": "address"
+						"type": "string[]"
 					}
 				],
 				"stateMutability": "view",
@@ -58,12 +59,17 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
 						"internalType": "string",
-						"name": "_counter",
+						"name": "newInfo",
 						"type": "string"
 					}
 				],
-				"name": "setStoredInfo",
+				"name": "updateInfo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -82,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Storage.sol": "StorageJ"
+			"contracts/Ejercicio1Clase2Mod2.sol": "Ejercicio1Clase1M"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -96,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Storage.sol": {
-			"keccak256": "0x212b95d793d6ec055545aefdf709ccfa308ea46ce79a0f89d43365cce1fe769b",
+		"contracts/Ejercicio1Clase2Mod2.sol": {
+			"keccak256": "0xc37586ddb72f808fed69b02ad73d51f3c9e931ad04db8a73867c6cfc58970d13",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://37cff63be12d2820e6596df7158cd07b5b5850471def27de2c5b60fed16c9e69",
-				"dweb:/ipfs/QmQ3miEicggrxZMG9pbbvtQeWXRXwmKW3ei3P9b6XjrjpQ"
+				"bzz-raw://c2c01ee879c428b303cc5f387c59e7a4871820e987981724a9c962033f978176",
+				"dweb:/ipfs/QmRcgdB977U1BN12rZQmAoSz7XNzowxEnEioaPgDi54BsV"
 			]
 		}
 	},

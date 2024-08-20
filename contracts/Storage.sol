@@ -23,4 +23,6 @@ contract StorageJ {
     function getStoredInfo() public view returns (string memory){
         return storedInfo;
     }
+    
+    
 }

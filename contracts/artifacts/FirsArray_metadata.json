@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "myInfo",
+						"type": "string"
+					}
+				],
+				"name": "addInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getOneInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "listAllInfo",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "newInfo",
+						"type": "string"
+					}
+				],
+				"name": "updateInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"addInfo(string)": {
+					"notice": "Graba nuevos valores en el array usando push() index devuelve la posición en la que se grabó el valor "
+				},
+				"getOneInfo(uint256)": {
+					"notice": "Devuelve el valor almacenado en la posición index del array Verifica que la posición sea válida, sino devuelve un error"
+				},
+				"updateInfo(uint256,string)": {
+					"notice": "Modifica el valor de la posición index del array con un nuevo valor Verifica que la posición sea válida, sino devuelve un error"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ejercicio1Clase2.sol": "FirsArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ejercicio1Clase2.sol": {
+			"keccak256": "0xd5356b2203cda40b979c6966b866c4351b4481cd10ef5adc9f48c03f65ed4c44",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16e43b296c7e501324608aa509cde01c0cb2847f690d48c3aacbf14a905b18f6",
+				"dweb:/ipfs/QmTAWqxpigsrj9i1ikWWrksqofbieqTAkudUk1hsqmY7LZ"
+			]
+		}
+	},
+	"version": 1
+}

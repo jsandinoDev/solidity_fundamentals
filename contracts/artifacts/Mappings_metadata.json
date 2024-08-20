@@ -8,48 +8,24 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_counter",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "countChanges",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getStoredInfo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "lastExec",
-				"outputs": [
-					{
 						"internalType": "address",
-						"name": "",
+						"name": "_userAddress",
 						"type": "address"
+					}
+				],
+				"name": "addToWhitelist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -59,13 +35,32 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_counter",
+						"name": "_name",
 						"type": "string"
 					}
 				],
-				"name": "setStoredInfo",
+				"name": "setName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "whitelist",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -82,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Storage.sol": "StorageJ"
+			"contracts/Mappings.sol": "Mappings"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -96,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Storage.sol": {
-			"keccak256": "0x212b95d793d6ec055545aefdf709ccfa308ea46ce79a0f89d43365cce1fe769b",
+		"contracts/Mappings.sol": {
+			"keccak256": "0x0535916092cb111ae31650f0413bf6659620f265708d5d1c313bda5da25b6a8c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://37cff63be12d2820e6596df7158cd07b5b5850471def27de2c5b60fed16c9e69",
-				"dweb:/ipfs/QmQ3miEicggrxZMG9pbbvtQeWXRXwmKW3ei3P9b6XjrjpQ"
+				"bzz-raw://3d33dba4dc1fae74caaa0d41d8a872c8c46065fcdb98d9eab1758b9c965571ca",
+				"dweb:/ipfs/QmUAm78UErrDYTkL4QLsiVBec6uAhzDidLNrAyNDaTqnzF"
 			]
 		}
 	},
