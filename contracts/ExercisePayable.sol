@@ -1,36 +1,3 @@
-
-// SPDX-License-Identifier: MIT
-
-pragma solidity ^0.8.26;
-
-contract ExercisePayable {
-    mapping(address => uint) public balances;
-
-    function addValueToUser() public{
-        balances[msg.sender] = 1000;
-    }
-
-    function getValueFromUser() public view returns(uint){
-        return balances[msg.sender];
-    }
-
-    //mapping
-    //payable
-    //modifiers
-
-    //funcion para enviar ether al contrato
-    //asigna esos fondos a un usuario
-    //guardamos en mapping el address -> balance actual del usuario
-    //modifier chequear que msg.value > 0
-
-    //withdrawUserFunds
-    //required fundsForUser[msg.value] >= _fundsToWithdraw
-    //
-
-}
-
------
-
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.26;
