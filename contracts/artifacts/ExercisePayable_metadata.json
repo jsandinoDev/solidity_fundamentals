@@ -8,30 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_userAddress",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_balance",
+						"name": "_fee",
 						"type": "uint256"
 					}
 				],
-				"name": "addBalance",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_userAddress",
-						"type": "address"
-					}
-				],
-				"name": "addToWhitelist",
+				"inputs": [],
+				"name": "addValueToUser",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -57,12 +44,45 @@
 			},
 			{
 				"inputs": [],
-				"name": "name",
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValueFromUser",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendValueToUser",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "treasury",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -71,46 +91,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_userAddress",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
 					}
 				],
-				"name": "removeFromWhitelist",
+				"name": "withdrawBalance",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "setName",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "whitelist",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -127,7 +115,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mappings.sol": "Mappings"
+			"contracts/ExercisePayable.sol": "ExercisePayable"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -141,12 +129,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Mappings.sol": {
-			"keccak256": "0xf6bd8bb40a1f1c8c501b7a4d0ddd1da297182a865c48cb4843717784b95a154b",
+		"contracts/ExercisePayable.sol": {
+			"keccak256": "0x31464a1808f50fa353dacc911057db772ff01ff612412e68d899150913301070",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://53837a123bf2ecfb765cacc2d895f74f8844270eb02246d8bed41b8aeed38216",
-				"dweb:/ipfs/QmbcaQH1xH4gwJWPhyZErwFgBDwWcWUcSujJFXSMuaZ7Mo"
+				"bzz-raw://c482463d2574bbee2957d86bd150dfbb0f1039d6f63a5f23d55f1f30b3e1c758",
+				"dweb:/ipfs/QmekqkK5qj8mVqLM1XUZ6mDptuo3ftB3B63qqaVWsWQjTx"
 			]
 		}
 	},

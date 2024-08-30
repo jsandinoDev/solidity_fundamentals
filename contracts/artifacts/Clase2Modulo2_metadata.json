@@ -20,7 +20,7 @@
 						"type": "address"
 					},
 					{
-						"indexed": false,
+						"indexed": true,
 						"internalType": "string",
 						"name": "key",
 						"type": "string"
@@ -100,7 +100,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "readName",
+				"name": "readNames",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -151,7 +151,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Clase2Modulo2.sol": "Clase2Modulo2"
+			"contracts/teacherFIles.sol": "Clase2Modulo2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -165,12 +165,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Clase2Modulo2.sol": {
-			"keccak256": "0x43a893b842dc7722aeb67865f78e800cfc79edd137d208903c3779fac72a62fc",
+		"contracts/teacherFIles.sol": {
+			"keccak256": "0xccd47cef096fcd104e4e9b3e765ac8016a24abcb0b4ee02971b7bd34acbb222f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3494244c987e815fe9cbf6338d720d0ed61bbdd0a81f505dcdd0ed982812be70",
-				"dweb:/ipfs/QmaWGQA8GwvLZ4nNyZyn6qb83uBMBhFR8iRvXVEtSy9KoN"
+				"bzz-raw://9bbebe29fb029eae151b37f2b2eaac9f6b63c518822c0bf146641d89ffdd5031",
+				"dweb:/ipfs/QmXSTQVKE2fJG1LRmNYDgu3R2XFAjAULjeeKuFE7kiByus"
 			]
 		}
 	},

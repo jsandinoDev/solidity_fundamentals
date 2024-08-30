@@ -1,0 +1,169 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_brand",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_crashed",
+						"type": "bool"
+					},
+					{
+						"internalType": "enum Structs.Cartype",
+						"name": "_type",
+						"type": "uint8"
+					}
+				],
+				"name": "addCarToMap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "car",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "brand",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "crashed",
+						"type": "bool"
+					},
+					{
+						"internalType": "enum Structs.Cartype",
+						"name": "carType",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "carMaps",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "brand",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "crashed",
+						"type": "bool"
+					},
+					{
+						"internalType": "enum Structs.Cartype",
+						"name": "carType",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_brand",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_crashed",
+						"type": "bool"
+					},
+					{
+						"internalType": "enum Structs.Cartype",
+						"name": "_type",
+						"type": "uint8"
+					}
+				],
+				"name": "createCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Structs.sol": "Structs"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Structs.sol": {
+			"keccak256": "0x312f18d5c9fe77cbbd0c1edecbe91cf31074297980d49e3844acc558382c70cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://19b5214f2e0426bd942c7571ebc9cb75d1d8672894227598e2df647511153392",
+				"dweb:/ipfs/QmT4AHhiEyUQ2nfQj6E8oWohhBEhAmo81im92wwtsY1WUz"
+			]
+		}
+	},
+	"version": 1
+}
