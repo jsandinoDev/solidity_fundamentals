@@ -40,6 +40,5 @@ contract ExercisePayable {
         payable(msg.sender).transfer(_amount - feeAmount);
         balances[msg.sender] -= _amount;
         treasury += feeAmount;
-        // balances[address(this)] += feeAmount;
     }
 }

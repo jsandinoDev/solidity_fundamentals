@@ -254,11 +254,11 @@
 	},
 	"sources": {
 		"contracts/EntregableFinalMod2.sol": {
-			"keccak256": "0x0351792f6b8ba821e1d30c3046612a8e1945fe9cde12f42d3a98626301a0c6f6",
+			"keccak256": "0x7413d69854aff43040935ba79720174c9f49db382c9aab65eb9c51a62ace5d0e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://176f2d2c46b217ae22dfa1f16a89b75baa9c05757e08543fbbf5bf34caf7262b",
-				"dweb:/ipfs/QmRDvDGZtmw7UjDCKGY8ZRfdZ46AFEstUWWyaxKshaSM3x"
+				"bzz-raw://c190cf8ee20c57d04678fdd45f1d81e6950eb0010535ae0cd48a232c1506ae38",
+				"dweb:/ipfs/QmT8tVcUaao9CupDobj5AyqdF9bFvFEVhx9osokDEww8tB"
 			]
 		}
 	},

@@ -3,7 +3,7 @@
 pragma solidity ^0.8.26;
 
 // Josue Sandino Jaen
-// ETH
+// ETH Kipu Mod2
 contract EntregableFinalMod2 {
 
     // init declarations
